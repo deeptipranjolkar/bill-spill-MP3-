@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color:aliceblue;
+}
+
+h1 {
+	text-align: center;
+	
+	color: #6F3CFF;
+}
+
+#container {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 5px;
+	border: 5px solid rgb(163, 58, 32);
+	border-radius: 16px;
+	box-shadow: 0 0 10px rgba(227, 209, 209, 0.2);
+	font-size: 25px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	background-color:rgb(111, 26, 247);
+	align-items: center;
+}
+
+label {
+	margin-top: 100px;
+}
+
+input, select {
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 10px;
+	background: rgba(129, 16, 102, 0.53);
+}
+
+button {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #c65787;
+	color: rgb(151, 31, 31);
+	border:#fff;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: medium;
+}
+
+button:disabled {
+	background-color: rgb(213, 166, 166);
+	cursor: not-allowed;
+}
+
+#r-container {
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: rgb(22, 92, 115);
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(188, 173, 173, 0.2);
+	display: none;
+}
+
+#r-container h2 {
+	text-align: center;
+}
+
+#r-container table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#r-container td, th {
+	padding: 10px;
+	text-align: center;
+	border: 2px solid green;
+}
+
+#r-container th {
+	background-color: #f2f2f2;
+}
